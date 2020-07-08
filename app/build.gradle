@@ -27,5 +27,14 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     implementation 'com.google.firebase:firebase-analytics:17.2.2'
+
+    //Add library
+    implementation 'com.google.firebase:firebase-core:10.2.0'
+    implementation 'com.google.firebase:firebase-database:10.2.0'
+    implementation 'info.hoang8f:fbutton:1.0.5'
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+
+
 }
+
 apply plugin: 'com.google.gms.google-services'
